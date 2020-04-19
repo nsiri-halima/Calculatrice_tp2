@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculatrice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <h2> Calculatrice </h2>
+        <hr>
+        <form action="CalculatriceServlet" method="post"></form>
+        <table>
+        <td> opérande 1 </td>
+        <td> <input name="op1" value="" type="test"> </td>
+    </tr>
+    <tr>
+        <td> opérande 2 </td>
+        <td> <input name="op2" value="" type="test"> </td>
+    </tr>
+    <tr>
+        <td> opération: </td>
+        <td> <input name="operation" value="addition" type="radio"> addition </td>
+         <td> <input name="operation" value="soustraction" type="radio"> soustraction </td>
+          <td> <input name="operation" value="multiplication" type="radio"> multiplication </td>
+           <td> <input name="operation" value="division" type="radio"> division </td>
+    </tr>
+    <tr>
+        <td> <input type="submit" value="Envoyer" ></td>
+        <td> <input type="reset" value="Envoyer" ></td>
+    </tr>
+    
+        </table>
+    </form>
+    </center>
+    </body>
+</html>
